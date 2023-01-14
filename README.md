@@ -31,10 +31,6 @@
      ```shell
        brew install mousecape
      ```
-   - ### [RunCat Plugins Manager](https://kyome.io/runcat/)
-     ```shell
-       brew install runcat-plugins-manager
-     ```
    - ### [TrashRecover](https://www.corecode.io/trashrecover)
 
      ```shell
