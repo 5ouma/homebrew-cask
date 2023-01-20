@@ -1,19 +1,19 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 
 caskDir="$(dirname "$0")/Casks"
 fileName="$1"
 if [[ -z "$fileName" ]]; then
-  echo "What app do you want to upgrade?"
+  printf "What app do you want to upgrade?\n"
   read -r fileName
 fi
 if [[ -z $(find "$caskDir" -name "$fileName.*") ]]; then
-  echo -e "\033[31mError:\033[m No available cask with the name \"$fileName\""
+  printf "\033[31mError:\033[m No available cask with the name \"%s\"\n" "$fileName"
   return 1
 fi
 caskName=$(grep "name" "$caskDir"/"$fileName".rb | sed -e "s/.*name //" -e "s/\"//g")
 ver="$2"
 if [[ -z "$ver" ]]; then
-  echo "Which version do you want to upgrade to?"
+  printf "Which version do you want to upgrade to?\n"
   read -r ver
 fi
 
