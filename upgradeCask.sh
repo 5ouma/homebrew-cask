@@ -28,4 +28,4 @@ rm /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/"$fileName".rb
 
 git add "$caskDir"/"$fileName".rb
 git commit -m "[upgrade] Version up $caskName to $ver" -m "" -m "Update the cask by updating the app."
-git push origin main
+git push
