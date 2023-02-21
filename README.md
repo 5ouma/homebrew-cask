@@ -38,3 +38,10 @@
      ```shell
        brew install trashrecover
      ```
+
+   - ### [Tweeten](https://tweetenapp.com)
+
+     ```shell
+       brew install tweeten
+     ```
+
