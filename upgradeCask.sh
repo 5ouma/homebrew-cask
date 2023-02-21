@@ -1,31 +1,33 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
-caskDir="$(dirname "$0")/Casks"
-fileName="$1"
-if [[ -z "$fileName" ]]; then
+# shellcheck disable=SC2155
+declare -r dir="$(dirname "$0")/Casks"
+if [[ -z "$1" ]]; then
   printf "What app do you want to upgrade?\n"
-  read -r fileName
+  read -r file
+else
+  declare -r file="$1"
 fi
-if [[ -z $(find "$caskDir" -name "$fileName.*") ]]; then
-  printf "\033[31mError:\033[m No available cask with the name \"%s\"\n" "$fileName"
-  return 1
+declare -r path="$dir/$file.rb"
+if [[ ! -e "$path" ]]; then
+  printf "\033[31mError:\033[m No available cask with the name \"%s\"\n" "$file"
+  exit 1
 fi
-caskName=$(grep "name" "$caskDir"/"$fileName".rb | sed -e "s/.*name //" -e "s/\"//g")
-ver="$2"
-if [[ -z "$ver" ]]; then
+if [[ -z "$2" ]]; then
   printf "Which version do you want to upgrade to?\n"
   read -r ver
+else
+  declare -r ver="$2"
 fi
+declare -r name=$(grep "name" "$path" | sed -e "s/.*name //" -e "s/\"//g")
 
-sed -i "" "s/version \".*\"/version \"$ver\"/" "$caskDir"/"$fileName".rb
-sed -i "" "s/sha256 \".*\"/sha256 :no_check/" "$caskDir"/"$fileName".rb
-cp "$caskDir"/"$fileName".rb /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/
+sed -i "" "s/version \".*\"/version \"$ver\"/" "$path"
+sed -i "" "s/sha256 \".*\"/sha256 :no_check/" "$path"
 
-brew upgrade "$fileName"
-hash=$(shasum -a 256 ~/Library/Caches/Homebrew/Cask/"$fileName"--"$ver".* | awk '{print $1}')
-sed -i "" "s/sha256 :no_check/sha256 \"$hash\"/" "$caskDir"/"$fileName".rb
-rm /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/"$fileName".rb
+brew upgrade --cask "$path"
+declare -r hash="$(shasum -a 256 ~/Library/Caches/Homebrew/Cask/"$file--$ver."* | awk '{print $1}')"
+sed -i "" "s/sha256 :no_check/sha256 \"$hash\"/" "$path"
 
-git add "$caskDir"/"$fileName".rb
-git commit -m "[upgrade] Version up $caskName to $ver" -m "" -m "Update the cask by updating the app."
+git add "$path"
+git commit -m "[upgrade] Version up $name to $ver" -m "" -m "Update the cask by updating the app."
 git push
