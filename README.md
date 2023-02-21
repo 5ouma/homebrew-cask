@@ -15,12 +15,6 @@
 
 2. ## Run these commands which you like
 
-   - ### [AirPods Battery Monitor](https://github.com/mohamed-arradi/AirpodsBattery-Monitor-For-Mac)
-
-     ```shell
-       brew install airpodsbattery-monitor-for-mac
-     ```
-
    - ### [Amphetamine Enhancer](https://github.com/x74353/Amphetamine-Enhancer)
 
      ```shell
