@@ -21,6 +21,12 @@
        brew install amphetamine-enhancer
      ```
 
+   - ### [Aseprite](https://www.aseprite.org)
+
+     ```shell
+       brew install aseprite
+     ```
+
    - ### [FreeFileSync](https://freefilesync.org)
 
      ```shell
@@ -44,4 +50,3 @@
      ```shell
        brew install tweeten
      ```
-
