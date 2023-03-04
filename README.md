@@ -15,12 +15,6 @@
 
 2. ## Run these commands which you like
 
-   - ### [Amphetamine Enhancer](https://github.com/x74353/Amphetamine-Enhancer)
-
-     ```shell
-       brew install amphetamine-enhancer
-     ```
-
    - ### [Aseprite](https://www.aseprite.org)
 
      ```shell
@@ -31,18 +25,6 @@
 
      ```shell
        brew install freefilesync
-     ```
-
-   - ### [Mousecape](https://github.com/alexzielenski/Mousecape)
-
-     ```shell
-       brew install mousecape
-     ```
-
-   - ### [TrashRecover](https://www.corecode.io/trashrecover)
-
-     ```shell
-       brew install trashrecover
      ```
 
    - ### [Tweeten](https://tweetenapp.com)
