@@ -1,9 +1,9 @@
-<br>
+<br />
 
 <h1 align="center">Homebrew Cask</h1>
 <p align="center">Homebrew tap for Casks to install softwares unofficially.</p>
 
-<br><br>
+<br /><br />
 
 # How to tap/install this?
 
