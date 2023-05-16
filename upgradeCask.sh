@@ -1,5 +1,7 @@
 #!/usr/bin/env zsh
 
+set -eu
+
 # shellcheck disable=SC2155
 declare -r dir="$(dirname "$(realpath "$0")")/Casks"
 if [[ -z "$1" ]]; then
