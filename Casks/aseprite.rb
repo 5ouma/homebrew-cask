@@ -5,11 +5,12 @@ cask "aseprite" do
   url "https://www.aseprite.org/downloads/trial/Aseprite-v#{version}-trial-macOS.dmg"
   name "Aseprite"
   desc "Animated Sprite Editor & Pixel Art Tool"
-  homepage "https://www.aseprite.org"
+  homepage "https://www.aseprite.org/"
 
   auto_updates true
 
   app "Aseprite.app"
+
   uninstall delete: [
     "/Applications/Aseprite.app",
     "~/Library/Application Support/Aseprite",
