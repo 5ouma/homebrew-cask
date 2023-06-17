@@ -4,7 +4,7 @@ cask "rhythm-quest" do
 
   url "https://rhythmquestgame.com/demo/rhythm-quest-osxdemo-v#{version.dots_to_underscores}.zip"
   name "Rhythm Quest"
-  desc "Is a 2-button rhythm platformer game"
+  desc "2-button rhythm platformer game"
   homepage "https://rhythmquestgame.com/"
 
   app "Rhythm Quest Demo.app"

@@ -4,7 +4,7 @@ cask "freefilesync" do
 
   url "https://freefilesync.org/download/FreeFileSync_#{version}_macOS.zip"
   name "FreeFileSync"
-  desc "Is a folder comparison and synchronization software"
+  desc "Folder comparison and synchronization software"
   homepage "https://freefilesync.org/"
 
   auto_updates false
