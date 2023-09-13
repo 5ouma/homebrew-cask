@@ -7,6 +7,11 @@ cask "freefilesync" do
   desc "Folder comparison and synchronization software"
   homepage "https://freefilesync.org/"
 
+  livecheck do
+    url "https://freefilesync.org/archive.php"
+    regex(/FreeFileSync (\d+.\d+)/)
+  end
+
   auto_updates false
 
   pkg "FreeFileSync_#{version}.pkg",

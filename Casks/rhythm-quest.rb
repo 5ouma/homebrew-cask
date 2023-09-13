@@ -7,6 +7,11 @@ cask "rhythm-quest" do
   desc "2-button rhythm platformer game"
   homepage "https://rhythmquestgame.com/"
 
+  livecheck do
+    url "https://rhythmquestgame.com/demo/rhythm-quest-demo.html"
+    regex(/Version (\d+.\d+.\d+)/)
+  end
+
   app "Rhythm Quest Demo.app"
 
   uninstall delete: [
