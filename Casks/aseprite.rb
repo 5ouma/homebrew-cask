@@ -11,8 +11,7 @@ cask "aseprite" do
 
   app "Aseprite.app"
 
-  uninstall delete: [
-    "/Applications/Aseprite.app",
+  zap trash: [
     "~/Library/Application Support/Aseprite",
     "~/Library/Logs/Homebrew/aseprite",
     "~/Library/Preferences/Aseprite.plist",

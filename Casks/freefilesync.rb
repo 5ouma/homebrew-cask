@@ -29,7 +29,6 @@ cask "freefilesync" do
       ]
 
   uninstall delete: [
-    "/Applications/FreeFileSync.app",
     "/Applications/RealTimeSync.app",
   ]
 

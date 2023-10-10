@@ -14,8 +14,7 @@ cask "rhythm-quest" do
 
   app "Rhythm Quest Demo.app"
 
-  uninstall delete: [
-    "/Applications/Rhythm Quest Demo.app",
+  zap trash: [
     "~/Library/Application Support/com.ddrkirby.rhythmquest",
     "~/Library/Preferences/com.ddrkirby.rhythmquest.plist",
     "~/Library/Saved Application State/com.ddrkirby.rhythmquest.savedState",
