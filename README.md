@@ -37,7 +37,7 @@
        brew install freefilesync
      ```
 
-   - #### [Rhytym Quest](https://rhythmquestgame.com)
+   - #### [Rhythm Quest](https://rhythmquestgame.com)
 
      ```shell
        brew install rhythm-quest
