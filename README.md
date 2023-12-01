@@ -1,8 +1,6 @@
-<br />
+<h1 align="center">Homebrew Cask</h1>
 
 <div align="center">
-
-# Homebrew Cask
 
 **🍺 Homebrew tap for Casks to install software unofficially.**
 
