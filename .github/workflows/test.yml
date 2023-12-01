@@ -1,6 +1,10 @@
 name: Homebrew Test
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   Test-Bot:
@@ -39,6 +43,6 @@ jobs:
 
       - name: Cask Install
         run: |
-            for cask in $(brew search '5ouma/cask'); do
-              brew install --cask --verbose "$cask"
-            done
+          for cask in $(brew search '5ouma/cask'); do
+            brew install --cask --verbose "$cask"
+          done
