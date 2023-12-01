@@ -7,7 +7,10 @@ cask "aseprite" do
   desc "Animated Sprite Editor & Pixel Art Tool"
   homepage "https://www.aseprite.org/"
 
-  auto_updates true
+  livecheck do
+    url "https://github.com/aseprite/aseprite/releases.atom"
+    regex(/v(\d+.\d+.\d+)/)
+  end
 
   app "Aseprite.app"
 
