@@ -44,7 +44,10 @@ jobs:
         run: brew audit --debug --strict --cask --tap=${{ env.HOMEBREW_TAP }}
 
       - name: Cask Livecheck
-        run: test brew livecheck --debug --newer-only --cask --tap=${{ env.HOMEBREW_TAP }} = 'No newer upstream versions.'
+        run: |
+          declare -r versionInfo="$(brew livecheck --newer-only --cask --tap=${{ env.HOMEBREW_TAP }})"
+          echo "$versionInfo"
+          test "$versionInfo" = 'No newer upstream versions.'
 
       - name: Cask Install
         run: |
