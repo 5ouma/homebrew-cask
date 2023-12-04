@@ -1,0 +1,24 @@
+name: Homebrew Bump
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  Bump-Cask:
+    runs-on: Ubuntu-Latest
+
+    steps:
+      - name: Setup Homebrew
+        id: setup-homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+        with:
+          test-bot: false
+
+      - name: Version up Homebrew Cask
+        uses: macauley/action-homebrew-bump-cask@v1
+        with:
+          token: ${{ secrets.TOKEN }}
+          tap: ${{ github.repository }}
+          livecheck: true
