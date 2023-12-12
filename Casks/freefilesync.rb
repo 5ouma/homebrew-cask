@@ -11,7 +11,6 @@ cask "freefilesync" do
     url "https://freefilesync.org/archive.php"
     regex(/FreeFileSync (\d+.\d+)/)
   end
-
   auto_updates false
 
   pkg "FreeFileSync_#{version}.pkg",
