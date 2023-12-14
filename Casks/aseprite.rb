@@ -11,6 +11,7 @@ cask "aseprite" do
     url "https://github.com/aseprite/aseprite/releases.atom"
     regex(/v(\d+.\d+.\d+)/)
   end
+
   auto_updates false
 
   app "Aseprite.app"
