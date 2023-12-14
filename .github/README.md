@@ -10,7 +10,7 @@
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/5ouma/homebrew-cask?style=flat-square)](https://github.com/5ouma/homebrew-cask/commits/main)
 <br />
 [![Test](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask/homebrew-test.yml?label=test&style=flat-square)](https://github.com/5ouma/homebrew-cask/actions/workflows/homebrew-test.yml)
-[![Version Bump](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask/homebrew-bump.yml?label=version_bump&style=flat-square)](https://github.com/5ouma/homebrew-cask/actions/workflows/homebrew-bump.yml)
+[![Version Bump](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask/homebrew-bump.yml?label=version%20bump&style=flat-square)](https://github.com/5ouma/homebrew-cask/actions/workflows/homebrew-bump.yml)
 
 </div>
 
@@ -24,7 +24,7 @@
      brew tap 5ouma/cask
    ```
 
-2. ### ⚙️ Run these commands which you like
+2. ### 🥫 Install preferred applications
 
    - #### [Aseprite](https://www.aseprite.org)
 
