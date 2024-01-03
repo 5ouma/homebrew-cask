@@ -21,25 +21,25 @@
 1. ### 🚰 Tap this repo
 
    ```shell
-     brew tap 5ouma/cask
+   brew tap 5ouma/cask
    ```
 
-2. ### 🥫 Install preferred applications
+1. ### 🥫 Install preferred applications
 
-   - #### [Aseprite](https://www.aseprite.org)
+   - #### [◻️ Aseprite](https://www.aseprite.org)
 
      ```shell
-       brew install aseprite
+     brew install aseprite
      ```
 
-   - #### [FreeFileSync](https://freefilesync.org)
+   - #### [🔄 FreeFileSync](https://freefilesync.org)
 
      ```shell
-       brew install freefilesync
+     brew install freefilesync
      ```
 
-   - #### [Rhythm Quest](https://rhythmquestgame.com)
+   - #### [🪘 Rhythm Quest](https://rhythmquestgame.com)
 
      ```shell
-       brew install rhythm-quest
+     brew install rhythm-quest
      ```
