@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**🍺 Homebrew tap for Casks to install software unofficially.**
+**🍺 Homebrew tap for Casks to install software unofficially**
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/5ouma/homebrew-cask?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5ouma/homebrew-cask?style=flat-square)
@@ -38,7 +38,7 @@
      brew install freefilesync
      ```
 
-   - #### [🪘 Rhythm Quest](https://rhythmquestgame.com)
+   - #### [🥁 Rhythm Quest](https://rhythmquestgame.com)
 
      ```shell
      brew install rhythm-quest
