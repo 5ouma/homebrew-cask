@@ -2,7 +2,7 @@ cask "rhythm-quest" do
   version "0.29.4"
   sha256 "cda263cc1b39f54eca74233754283713c8028be0eff318e3aa154b954920ea83"
 
-  url "https://rhythmquestgame.com/demo/rhythm-quest-osxdemo-v#{version.dots_to_underscores}.zip"
+  url "https://rhythmquestgame.com/demo/builds/rhythm-quest-osxdemo-v#{version.dots_to_underscores}.zip"
   name "Rhythm Quest"
   desc "2-button rhythm platformer game"
   homepage "https://rhythmquestgame.com/"
