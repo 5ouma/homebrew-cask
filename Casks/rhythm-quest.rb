@@ -1,6 +1,6 @@
 cask "rhythm-quest" do
-  version "0.30.0"
-  sha256 "ccf89466fbc0cda179aeb3c9f3e433890254512235075e2e655b905fa848e8f4"
+  version "0.30.2"
+  sha256 "c43a94070432af90a14a8b88839c83cb56ccebf1143ef51405804b4c9793de7d"
 
   url "https://rhythmquestgame.com/demo/builds/rhythm-quest-osxdemo-v#{version.dots_to_underscores}.zip"
   name "Rhythm Quest"
