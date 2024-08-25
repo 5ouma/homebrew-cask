@@ -9,7 +9,7 @@ cask "rhythm-quest" do
 
   livecheck do
     url "https://rhythmquestgame.com/demo/rhythm-quest-demo.html"
-    regex(/Version (\d+.\d+.\d+)/)
+    regex(/Version (\d+\.\d+\.\d+)/)
   end
 
   auto_updates false

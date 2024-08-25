@@ -9,7 +9,7 @@ cask "freefilesync" do
 
   livecheck do
     url "https://freefilesync.org/archive.php"
-    regex(/FreeFileSync (\d+.\d+)/)
+    regex(/FreeFileSync (\d+\.\d+)/)
   end
 
   auto_updates false
