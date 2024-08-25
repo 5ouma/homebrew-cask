@@ -8,8 +8,8 @@ cask "aseprite" do
   homepage "https://www.aseprite.org/"
 
   livecheck do
-    url "https://github.com/aseprite/aseprite"
-    strategy :github_latest
+    url "https://www.aseprite.org/trial"
+    regex(/Aseprite Trial v(\d+\.\d+\.\d+) for macOS/)
   end
 
   auto_updates false
