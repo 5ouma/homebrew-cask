@@ -20,7 +20,7 @@
 
 1. ### 🚰 Tap this repo
 
-   ```shell
+   ```sh
    brew tap 5ouma/cask
    ```
 
@@ -28,18 +28,18 @@
 
    - #### [◻️ Aseprite](https://www.aseprite.org)
 
-     ```shell
+     ```sh
      brew install aseprite
      ```
 
    - #### [🔄 FreeFileSync](https://freefilesync.org)
 
-     ```shell
+     ```sh
      brew install freefilesync
      ```
 
    - #### [🥁 Rhythm Quest](https://rhythmquestgame.com)
 
-     ```shell
+     ```sh
      brew install rhythm-quest
      ```
