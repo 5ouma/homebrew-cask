@@ -9,8 +9,8 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/5ouma/homebrew-cask?style=flat-square)](https://github.com/5ouma/homebrew-cask/commit/HEAD)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/5ouma/homebrew-cask?style=flat-square)](https://github.com/5ouma/homebrew-cask/commits/main)
 <br />
-[![Test](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask/homebrew-test.yml?label=test&style=flat-square)](https://github.com/5ouma/homebrew-cask/actions/workflows/homebrew-test.yml)
-[![Version Bump](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask/homebrew-bump.yml?label=version%20bump&style=flat-square)](https://github.com/5ouma/homebrew-cask/actions/workflows/homebrew-bump.yml)
+[![Test](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask/test.yml?label=test&style=flat-square)](https://github.com/5ouma/homebrew-cask/actions/workflows/test.yml)
+[![Bump](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask/bump.yml?label=bump&style=flat-square)](https://github.com/5ouma/homebrew-cask/actions/workflows/bump.yml)
 
 </div>
 
