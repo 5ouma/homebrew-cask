@@ -9,7 +9,7 @@ cask "aseprite" do
 
   livecheck do
     url "https://www.aseprite.org/trial"
-    regex(/Aseprite Trial v(\d+\.\d+\.\d+) for macOS/)
+    regex(/Aseprite Trial v(\d+\.\d+\.\d+(\.\d+)?) for macOS/)
   end
 
   auto_updates false
