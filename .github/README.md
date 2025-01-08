@@ -4,13 +4,12 @@
 
 **🍺 Homebrew tap for Casks to install software unofficially**
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/5ouma/homebrew-cask?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/5ouma/homebrew-cask?style=flat-square)
-[![GitHub last commit](https://img.shields.io/github/last-commit/5ouma/homebrew-cask?style=flat-square)](https://github.com/5ouma/homebrew-cask/commit/HEAD)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/5ouma/homebrew-cask?style=flat-square)](https://github.com/5ouma/homebrew-cask/commits/main)
 <br />
-[![Test](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask/test.yml?label=test&style=flat-square)](https://github.com/5ouma/homebrew-cask/actions/workflows/test.yml)
-[![Bump](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask/bump.yml?label=bump&style=flat-square)](https://github.com/5ouma/homebrew-cask/actions/workflows/bump.yml)
+
+[![Test](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask/test.yml?label=Test&style=flat-square)](https://github.com/5ouma/homebrew-cask/actions/workflows/test.yml)
+[![Bump](https://img.shields.io/github/actions/workflow/status/5ouma/homebrew-cask/bump.yml?label=Bump&style=flat-square)](https://github.com/5ouma/homebrew-cask/actions/workflows/bump.yml)
+
+![Repobeats Analytics Image](https://repobeats.axiom.co/api/embed/d1e1b9905da9f21164c879ee361a4a90e1090696.svg)
 
 </div>
 
